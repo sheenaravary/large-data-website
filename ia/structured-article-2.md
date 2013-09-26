@@ -3,7 +3,7 @@
 title: History
 subtitle: 1940s - 60s
 author: wikipedia
-dateL 19 september 2013
+date: 19 september 2013
 
 ---
 

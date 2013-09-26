@@ -64,7 +64,7 @@ Ashley loves cruising around downtown on her bike, visiting local shops and cafe
 - Bad weather
 - Close minded people
 
-## What would help?
+### What would help?
 
 - A site that would show her the history/culture of skateboarding
 - Being able to access this information anywhere she goes

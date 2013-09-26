@@ -13,15 +13,22 @@ The card sort was conducted by Sheena Ravary
 
 15 cards were used covering a broad range of applicable content for the website. The following topics were used as cards:
 
-1. History
-2. Homies
-3. Industry
-4. Basics
-5. Skate Life (culture)
-6. About skateboarding
-7. Skate Brands
-8. Dates in History
-9. Famous Skaters
+1. 1940s-1960s
+2. 1970s
+3. 1980s
+4. 1990s
+5. 2000-present
+6. Tony Hawk
+7. Jay Adams
+8. Stacy Peralta
+9. Tont Alva
+10. Skate Companies
+11. Zephyr
+12. Skateboards
+13. Tricks
+14. Culture
+15. Termanology
+
 
 ## Card sort results
 
