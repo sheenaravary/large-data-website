@@ -1,0 +1,3 @@
+## Style Report
+
+I chose the **2nd** style tile. I feel it suits my topic well because most websites/magazines associated with skateboarding use dark colors with one (sometimes two) accent colour. I decided on a range of greys with yellow. I chose grey because it kinda represents what people skate on (concrete). Yellow because it compliments the grey tones, but is also not gender specific, since I want everyone to use this site. It's very clean and simple because I want the content to be the main focus of the site. I also want the site to look nice on all screen sizes, so keeping it simple will make it easy so translate across all devises. I stuck to a typical web font because it just is clean, and looks the best since it was designed for web. 
