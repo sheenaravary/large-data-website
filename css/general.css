@@ -166,7 +166,7 @@ footer {
 	  	margin-left: 300px;
 	}
 	
-	.hero-unit {
+	.hero-unit-m {
 		text-align: left;
 		margin-bottom: 10px;
 		font-size: 1.25em;
@@ -194,7 +194,7 @@ footer {
 		font-size: 1.3em;
 	}
 	
-	.hero-unit {
+	.hero-unit-l {
 		font-size: 1.5em;
 	}
 	
@@ -204,7 +204,7 @@ footer {
 		font-size: 1.5em;
 	}
 	
-	.hero-unit {
+	.hero-unit-xl {
 		font-size: 1.5em;
 	}
 	
