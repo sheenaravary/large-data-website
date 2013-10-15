@@ -1,0 +1,3 @@
+makrdown: redcarpet
+baseurl:
+exclude: [list off items you want jekyll to ignore aka. 'ia', 'visual-style', 'README.md']
