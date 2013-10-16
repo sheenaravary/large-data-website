@@ -17,11 +17,6 @@ body {
     src: url(../font/Blackout-2am.eot);
 }
 
-header {
-	padding: 0;
-	margin: 0;
-}
-
 nav ul {
 	font-family: Blackout-2am;
 	font-size: 1.25em;
@@ -37,7 +32,6 @@ nav li {
 	padding: .5em;
 	color: black;
 	text-decoration: none;
-	
 }
 
 nav a,
@@ -60,30 +54,11 @@ nav:hover {
 	float: left;
 	padding: 1em;
 	overflow: hidden;
-	font-size: 0.75em;
 	clear: all;
-}
-
-.grid {
-	overflow:hidden;
-}
-
-.unit {
-	width: 100%;
-	float: left;
-	font-weight: 100;
-	font-size: 1em;
-}
-
-.unit h2 {
-	font-weight: 200;
 }
 
 .hero-unit {
 	width: 100%;
-	font-size: 1em;
-	font-weight: 200;
-	line-height: 20px;
 	-webkit-border-radius: 6px;
 	-moz-border-radius: 6px;
 	border-radius: 6px;
@@ -94,12 +69,40 @@ nav:hover {
 	padding: 2%;
 }
 
+.grid {
+	overflow:hidden;
+}
+
+.hero-unit h1 {
+	font-size: 1.4em;
+	font-weight: 600;
+	margin-bottom: -1.4%;
+}
+
+.hero-unit-p,
+.unit-p {
+	font-size: .75em;
+	line-height: 1.2 em;
+}
+
+
+.unit {
+	width: 100%;
+	float: left;
+}
+
+.unit h2 {
+	font-size: 1em;
+	font-weight: 400;
+	margin-bottom: -1.4%;
+}
+
 footer {
-	border-top: dotted 0.2em #666;
+	font-size: .75em;
 	text-align: center;
-	padding-left: 20px;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	border-top: dotted 0.2em #666;
+	padding-top: 1.5%;
+	padding-bottom: 1%;
 }
 
 .btn {
@@ -144,7 +147,6 @@ footer {
 
 @media only screen and (min-width: 38em) {
 	
-	
 	header {
 		float: left;
 		width: 25%;
@@ -158,40 +160,43 @@ footer {
 		font-size: 1.15em;
 	}
 	
-	.unit-1-3-m {
-		width: 100%;
-		padding: 1%;
-		text-align: left;
-	}
-		
 	.container {
-		/*
-		margin-top: -12em;
-	  	margin-left: 300px;
-		margin-right: 10px;
-		*/
 		float:right;
 		width: 70%;
 	}
+
+	
+	.unit-1-3-m {
+		width: 100%;
+		padding: 1%;
+	}
+	
+	.unit-p-m {
+		text-align: center;
+		font-size: .8em;
+		font-weight: 100;
+	}
 	
 	.hero-unit-m {
+		margin-bottom: 6%;
+	}
+	
+	.hero-unit-p-m {
 		text-align: left;
-		margin-bottom: 10px;
-		font-size: 1.25em;
-		line-height: 28px;
-}
+		font-size: .8em;
+		font-weight: 100;
+		line-height: 1.30em;
+	}
+		
 	
 	.hero-unit h1 {
-	  font-size: 40px;
-	  line-height: 1;
+	  font-size: 1.2em;
+	  font-weight: 400;
 	}
 	
 	footer {
 	font-size: .75em;
-	padding-top: 20px;
-	padding-bottom: 20px;
 }
-
 }
 
 @media only screen and (min-width: 60em) {
@@ -199,33 +204,59 @@ footer {
 		font-size: 1.5em;
 	}
 	
+	.container {
+		margin-right: 10px;
+	}		
+	
+	.hero-unit h1 {
+	  font-size: 1.6em;
+	  font-weight: 400;
+	}
+	
+	.hero-unit-p-l {
+		font-size: 1.2em;
+		line-height: 1.4em;
+	}
+	
 	.unit-1-3-l {
-		font-size: 1.3em;
 		width: 300px;
 		text-align: center;
 	}
 	
-	.hero-unit-l {
-		font-size: 1.5em;
+	.unit h2 {
+		font-size: 1.2em;
+		text-align: center;
 	}
 	
-	.container {
-		margin-right: 10px;
+	.unit-p-l {
+		text-align: center;
+		font-size: 1em;
+		line-height: 1.2em;
 	}
-	
+			
 
 @media only screen and (min-width: 120em) {
+	
 	nav {
 		font-size: 1.75em;
 	}
 	
-	.hero-unit-xl {
-		font-size: 1.5em;
+	.hero-unit h1 {
+		font-size: 1.8em;
 	}
 	
-	.unit-1-3-xl {
-		font-size: 1.25em;
+	.hero-unit-p-xl {
+		font-size: 1.4em;
+		line-height: 1.6em;
 	}
+	
+	.unit h2 {
+		font-size: 1.4em;
+	}
+	
+	.unit-p-xl {
+		font-size: 1.2em;
+		line-height: 1.4em;
 }
 
 
