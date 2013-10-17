@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmins="http://ww.sitemap.org/schemas/sitemap/0.9">
+
+	<url>
+		<loc>http://historyofskateboarding.com/</loc>
+		
+		<lastmod>20013-10-15</lastmod>
+
+		<changefreq>monthly</changefreq>
+		
+		<priority>0.9</priority>
+	</url>
+	
+	<url>		
+		<loc>http://historyofskateboarding.com/index.html</loc>
+	</url>
+	
+</urlset>
