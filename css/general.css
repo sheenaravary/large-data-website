@@ -59,6 +59,11 @@ nav:hover {
 	clear: all;
 }
 
+.container-img {
+	width: 100%;
+	padding-top: 3%;
+}
+
 .hero-unit {
 	width: 100%;
 	-webkit-border-radius: 6px;
@@ -74,6 +79,21 @@ nav:hover {
 .grid {
 	overflow:hidden;
 }
+
+.how-to {
+	overflow: hidden;
+}
+
+.numbered-list-left {
+	float: left;
+	width: 49%;
+}
+
+.numbered-list-right {
+	float: right;
+	width: 49%;
+}
+	
 
 .hero-unit h1 {
 	font-size: 1.4em;

@@ -1,3 +1,6 @@
+/* INFO */
+
+
 /* SITE */
 	Last update:2013/02/04
 	Language: English
