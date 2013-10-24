@@ -46,9 +46,14 @@ nav:hover {
 	color: #fed700;
 }
 
-.flex-img {
+.logo {
 	display: block;
 	width: 85%;
+}
+
+.flex-img {
+	display: block;
+	width: 100%;
 }
 
 .container {
@@ -85,6 +90,10 @@ nav:hover {
 	padding-bottom: 2%;
 	font-size: .75em;
 	line-height: 1.2 em;
+}
+
+.how-to li {
+	padding-bottom: 0.5em;
 }
 
 .numbered-list {
@@ -177,7 +186,7 @@ footer {
 		width: 25%;
 	}
 	
-	.flex-img {
+	.logo {
 		width: 40%;	
 	}
 	
