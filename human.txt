@@ -1,4 +1,7 @@
 /* INFO */
+	Designed by Sheena Ravary
+	Ottawa, ON. Canada
+	All info and photos from Wikipedia
 
 
 /* SITE */
