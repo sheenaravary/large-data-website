@@ -21,9 +21,17 @@
 
 <body class="{{page.bodyClass}}">
 
+<ul class="skiplinks">
+	<li><a href="#main">Skip to primary content</a></li>
+	<li><a href="#complementary">Skip to secondary content</a></li>
+	<li><a href="#navigation">Skip to main navigation</a></li>
+</ul>
+
+
 <a href="{{site.baseurl}}/index.html" class="logo"><img src="{{site.baseurl}}/img/logo.png" alt="History of Skateboarding Logo" class="flex-img"></a>
-<header>
-		<nav>
+<header roll="banner">
+
+		<nav role="navigation" id="navigation">
 			<ul>
 				<li><a href="{{site.baseurl}}/history.html" class="color">History</a></li>
 				<li><a href="{{site.baseurl}}/homies.html" class="color">Homies</a></li>
