@@ -40,20 +40,14 @@ html {
 a,
 a:link,
 a:visited {
-	/* change your color etc
-	the underline is also an extremely important accessibility feature. You should have an underline;
-	but you can use a border if you want more control */
 }
 
 a:hover,
 a:active {
 	outline: none;
-	/* ok to remove from the outline on hover/active
-	becuase they are mouse-based interactions */
 }
 
 a:focus {
-	/* you must ALWAYS have outline on the focus state */
 	outline: 3px solid #000;
 }
 
