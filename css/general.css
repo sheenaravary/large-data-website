@@ -57,7 +57,7 @@ body {
 }
 
 @font-face {
-    font-family: Blackout-2am;
+    font-family: Blackout-2am, Helvetica, Arial, sans-serif;
     src: url(../fonts/Blackout-2am.ttf);
 }
 
@@ -113,7 +113,10 @@ nav:hover {
 }
 
 .shadow {
-		box-shadow: 3px 3px 3px #CCC;
+	box-shadow: 3px 3px 3px #CCC;
+	-moz-box-shadow:  3px 3px 3px #CCC;
+  -webkit-box-shadow: 3px 3px 3px #CCC;
+  box-shadow: 3px 3px 3px #CCC;
 }
 
 .hero-unit {
