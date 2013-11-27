@@ -3,7 +3,7 @@
 <head>
 <link href="{{site.baseurl}}/css/general.css" rel="stylesheet">
 <link href="{{site.baseurl}}/css/normalize.css" rel="stylesheet">
-<script src="{{site.baseurl}}/js/mondernizr.js"></script>
+<script src="{{site.baseurl}}/js/modernizr.js"></script>
 <meta charset="UTF-8">
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -48,6 +48,21 @@
 	{{content}}
 	<footer>© Sheena Ravary 2013 All Rights Reserved</footer>
 </div>
+
+<script>
+if (!Modernizr.inlinesvg) {
+  ;(function () {
+    var imgs = document.getElementsByTagName('img')
+      , totalImgs = imgs.length
+      , i = 0
+ 
+      for (i = 0; i < totalImgs; i++) {
+        imgs[i].src = imgs[i].src.replace(/svg$/, 'png')
+      }
+  }())
+	
+}
+</script>
 
 </body>
 </html>

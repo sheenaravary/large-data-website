@@ -3,7 +3,7 @@
 <head>
 <link href="/css/general.css" rel="stylesheet">
 <link href="/css/normalize.css" rel="stylesheet">
-<script src="/js/mondernizr.js"></script>
+<script src="/js/modernizr.js"></script>
 <meta charset="UTF-8">
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -30,7 +30,7 @@
 </ul>
 
 
-<a href="/index.html" class="logo"><img src="/img/logo.png" alt="History of Skateboarding Logo" class="flex-img" missing="nodisplay"></a>
+<a href="/index.html" class="logo"><img src="/img/logo.png" class="flex-img" alt="History of Skateboarding Logo"></a>
 <header roll="banner">
 
 		<nav role="navigation" id="navigation">
@@ -89,6 +89,21 @@
 
 	<footer>© Sheena Ravary 2013 All Rights Reserved</footer>
 </div>
+
+<script>
+if (!Modernizr.inlinesvg) {
+  ;(function () {
+    var imgs = document.getElementsByTagName('img')
+      , totalImgs = imgs.length
+      , i = 0
+ 
+      for (i = 0; i < totalImgs; i++) {
+        imgs[i].src = imgs[i].src.replace(/svg$/, 'png')
+      }
+  }())
+	
+}
+</script>
 
 </body>
 </html>

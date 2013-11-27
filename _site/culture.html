@@ -3,7 +3,7 @@
 <head>
 <link href="/css/general.css" rel="stylesheet">
 <link href="/css/normalize.css" rel="stylesheet">
-<script src="/js/mondernizr.js"></script>
+<script src="/js/modernizr.js"></script>
 <meta charset="UTF-8">
 <meta name="handheldfriendly" content="true">
 <meta name="mobileoptimized" content="240">
@@ -30,7 +30,7 @@
 </ul>
 
 
-<a href="/index.html" class="logo"><img src="/img/logo.png" alt="History of Skateboarding Logo" class="flex-img" missing="nodisplay"></a>
+<a href="/index.html" class="logo"><img src="/img/logo.png" class="flex-img" alt="History of Skateboarding Logo"></a>
 <header roll="banner">
 
 		<nav role="navigation" id="navigation">
@@ -48,7 +48,7 @@
 	<title>Culture</title>
 <main role="main" id="main">
 	<div class="hero-unit hero-unit-m hero-unit-l hero-unit-xl">
-		<img src="img/panaramabowl.jpg" alt="Pana-o-Rama photo of a Skate park" class="flex-img shadow" missing="nodisplay">
+		<img src="img/panaramabowl.jpg" class="flex-img shadow" alt="Pana-o-Rama photo of a Skate park">
 					<h1>Skateboarding was popularized</h1>
 						<p class="hero-unit-p hero-unit-p-m hero-unit-p-l hero-unit-p-xl">by the 1986 skateboarding cult classic <i>Thrashin'. </i> Directed by David Winters and starring Josh Brolin, it features appearances from many famous skaters such as Tony Alva, Tony Hawk, Christian Hosoi and Steve Caballero. <i>Thrashin' </i> also had a direct impact on  <i>Lords of Dogtown, </i> asCatherine Hardwicke, who directed  <i>Lords of Dogtown </i>, was hired by Winters to work on  <i>Thrashin'  </i> as a production designer where she met, worked with and befriended many famous skaters including the real Tony Alva, Tony Hawk, Christian Hosoi and Steve Caballero.</p>
 						<p class="hero-unit-p hero-unit-p-m hero-unit-p-l hero-unit-p-xl">Skateboarding was, at first, tied to the culture of surfing. As skateboarding spread across the United States to places unfamiliar with surfing or surfing culture, it developed an image of its own. For example, the classic film short Video Days (1991) portrayed skateboarders as reckless rebels.
@@ -78,6 +78,21 @@
 
 	<footer>© Sheena Ravary 2013 All Rights Reserved</footer>
 </div>
+
+<script>
+if (!Modernizr.inlinesvg) {
+  ;(function () {
+    var imgs = document.getElementsByTagName('img')
+      , totalImgs = imgs.length
+      , i = 0
+ 
+      for (i = 0; i < totalImgs; i++) {
+        imgs[i].src = imgs[i].src.replace(/svg$/, 'png')
+      }
+  }())
+	
+}
+</script>
 
 </body>
 </html>
